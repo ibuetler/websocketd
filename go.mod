@@ -1,4 +1,4 @@
-module github.com/joewalnes/websocketd
+module github.com/ibuetler/websocketd
 
 go 1.15
 

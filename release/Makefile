@@ -8,7 +8,7 @@ VERSION_MAJOR=0
 VERSION_MINOR=4
 
 # Last part of version number (patch) is incremented automatically from Git tags
-LAST_PATCH_VERSION:=$(shell git ls-remote git@github.com:joewalnes/websocketd.git \
+LAST_PATCH_VERSION:=$(shell git ls-remote git@github.com:ibuetler/websocketd.git \
 		| grep -e 'refs/tags/v[0-9\.]*$$' \
 		| sed -e 's|^.*refs/tags/v||' \
 		| grep -e "^$(VERSION_MAJOR)\.$(VERSION_MINOR)\.[0-9][0-9]*$$" \

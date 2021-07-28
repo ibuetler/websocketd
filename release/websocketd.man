@@ -98,14 +98,14 @@ Log level to use (default access). From most to least verbose: debug, trace, acc
 * full documentation at \fIhttp://websocketd.com\fR
 .RE
 .RS 2
-* project source at \fIhttps://github.com/joewalnes/websocketd\fR
+* project source at \fIhttps://github.com/ibuetler/websocketd\fR
 .RE
 .SH BUGS
 The only known condition so far is that certain applications in programming languages that enforce implicit STDOUT buffering (Perl, Python, etc.) would be producing unexpected data passing
 delays when run under \fBwebsocketd\fR. Such issues could be solved by editing the source code of those applications (prohibiting buffering) or modifying their environment to trick them
 into autoflush mode (e.g. pseudo-terminal wrapper "unbuffer").
 
-Active issues in development are discussed on GitHub: \fIhttps://github.com/joewalnes/websocketd/issues\fR.
+Active issues in development are discussed on GitHub: \fIhttps://github.com/ibuetler/websocketd/issues\fR.
 
 Please use that page to share your concerns and ideas about \fBwebsocketd\fR, authors would greatly appreciate your help!
 .SH AUTHOR
